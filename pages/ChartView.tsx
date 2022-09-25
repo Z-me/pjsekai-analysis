@@ -4,7 +4,7 @@ import type { NextPage } from 'next'
 const ChartView: NextPage = () => {
   return (
     <>
-      <Typography variant='h2' component='h1' gutterBottom>
+      <Typography variant='h4' gutterBottom>
         グラフ
       </Typography>
     </>

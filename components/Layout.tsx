@@ -1,5 +1,4 @@
-// import * as React from 'react';
-import type { FC, ReactNode } from 'react'
+import type { ReactNode } from 'react'
 import AppHeader from '../components/AppHeader'
 import Container from '@mui/material/Container'
 import Box from '@mui/material/Box'
@@ -14,7 +13,7 @@ export const Layout = ({ children, ...props }: Props) => {
   return (
     <StyledBody>
       <AppHeader />
-      <Container maxWidth='md'>
+      <Container maxWidth='lg'>
         <StyledMainContainer>
           <Box sx={{ height: '100%', padding: '16px' }}>
             <div {...props}>{children}</div>
